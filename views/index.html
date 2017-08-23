@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class='row'>
+        <div class='col-sm-8 col-sm-offset-2'>
+			<div class="panel panel-primary">
+				<div class="panel-heading"><h1>QR Code - PHP</h1></div>
+				<div class="panel-body">
+					{% if img %}
+						<div class="form-group">
+							<img src="img/{{img}}">
+						</div>
+					{% endif %}
+	                <form action="/" method="POST">
+	                    <button class='btn btn-success btn-block btn-lg'>Gerar</button>
+	                </form>
+				</div>
+			</div>
+        </div>
+    </div>
+{% endblock %}        
