@@ -2,12 +2,11 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-$app = new Silex\Application();
+use Silex\Application;
+use Silex\Provider\TwigServiceProvider;
 
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/../views/',
-));
+$app = new Application();
 
-$app->match('/', function() use($app) {
-    return $app['twig']->render('index.html');
-});
+$app->register(new TwigServiceProvider(), [ 
+    'twig.path' => __DIR__.'/../views/'
+]);
