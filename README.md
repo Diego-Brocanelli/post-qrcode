@@ -19,6 +19,11 @@ composer install
 php -S localhost:8080 -t public public/index.php
 ```
 
+### Resultado instalação inicial 
+
+![Projeto Inicial](https://github.com/Diego-Brocanelli/post-qrcode/docs/resultado_instalacao_inicial.png)
+
+
 ### Licença
 
 BSD-3-Clause
