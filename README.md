@@ -4,8 +4,8 @@ Estrutura do projeto utilizado para implementação dos recursos no post sobre Q
 
 ### Requisitos
 
-    - PHP >= 7.1
-    - Ext-db
+- PHP >= 7.1
+- Ext-db
 
 ### Instalação 
 
