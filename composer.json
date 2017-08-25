@@ -1,6 +1,7 @@
 {
     "name": "diego/post-qrcode",
     "description": "Estrutura de projeto para auxiliar no post sobre QR Code",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Diego Brocanelli",
