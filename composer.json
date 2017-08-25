@@ -1,4 +1,13 @@
 {
+    "name": "diego/post-qrcode",
+    "description": "Estrutura de projeto para auxiliar no post sobre QR Code",
+    "authors": [
+        {
+            "name": "Diego Brocanelli",
+            "email": "diegod2@msn.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
         "silex/silex": "^2.2",
         "twig/twig": "^2.4"
