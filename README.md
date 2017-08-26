@@ -2,6 +2,8 @@
 
 Estrutura do projeto utilizado para implementação dos recursos no post sobre QR Code com PHP.
 
+Link para o post: [QR Code com PHP](http://www.diegobrocanelli.com.br/php/qr-code-php/)
+
 ### Requisitos
 
 - PHP >= 7.1
